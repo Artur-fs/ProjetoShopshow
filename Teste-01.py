@@ -2,4 +2,5 @@ import time
 import hmac
 import hashlib
 import requests
-import pyautogui 
+import pyautogui
+
