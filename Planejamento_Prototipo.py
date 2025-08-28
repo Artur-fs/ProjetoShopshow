@@ -1,9 +1,10 @@
 import time
-import pyautogui
+import pyautogui as py
+import pandas as pd
 
 time.sleep(5)
-pyautogui.PAUSE = 1
-print (pyautogui.position())
+py.PAUSE = 1
+print (py.position())
 
 # Browser - Point(x=881, y=748)
 # Nova janela - Point(x=833, y=556)
@@ -20,3 +21,30 @@ print (pyautogui.position())
 #----------------------#
 # Aqui entra o scrip de postagem no instagram
 #----------------------#
+
+#CHAVE
+
+#Variaveis testes
+#tabela = pd.read_csv('produtos (1).csv')
+#links = (tabela['links']).values
+#nomes = (tabela['nome']).values
+
+
+#for link in links:
+#    print (f'O link é {link}ááááá')
+#aqui entra script puxar imagens
+
+#for nome in nomes:
+#    print (f'O nome é {nome}')
+#aqui entra script puxar imagens
+
+py.rightClick (x=928, y=746)#LOCAL DO CHROME (MUDAR POSITION SE NECESSARIO)
+py.click (x=857, y=554)
+py.doubleClick (x=1110, y=36)
+py.write ('https://www.instagram.com/')
+py.press ('Enter')
+time.sleep (5)
+py.click (x=88, y=548) #click em postar (Atualizar sempre)
+py.click (x=92, y=608) #click em postar (Atualizar sempre)
+py.click (x=671, y=506) #upload
+py.click (x=226, y=411) #seleciona barra de pesquisa
