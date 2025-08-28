@@ -11,6 +11,7 @@ Sessão de assinatura digital e credenciais será implementada novamente.
 API será usada para requisisções legitimas, porém agora usando o 'category_id'.
 
 28/08/25 - Atualização X3 - Replanejamento após teste 01
-Replanejamento do projeto - Mudança de automação em primeiro plano para automação em segundo plano.
+Replanejamento do projeto - Mudança de automação em segundo plano para automação em primeiro plano.
 API não será mais usada nessa nova estratégia.
 Implementação da biblioteca PyAutoGui para automação em primeiro plano.
+Executando primeiros teste com PyAutoGui para planejamento de prototipo.
