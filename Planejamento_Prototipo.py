@@ -38,13 +38,13 @@ print (py.position())
 #    print (f'O nome é {nome}')
 #aqui entra script puxar imagens
 
-py.rightClick (x=928, y=746)#LOCAL DO CHROME (MUDAR POSITION SE NECESSARIO)
-py.click (x=857, y=554)
-py.doubleClick (x=1110, y=36)
-py.write ('https://www.instagram.com/')
-py.press ('Enter')
-time.sleep (5)
-py.click (x=88, y=548) #click em postar (Atualizar sempre)
-py.click (x=92, y=608) #click em postar (Atualizar sempre)
-py.click (x=671, y=506) #upload
-py.click (x=226, y=411) #seleciona barra de pesquisa
+#py.rightClick (x=928, y=746)#LOCAL DO CHROME (MUDAR POSITION SE NECESSARIO)
+#py.click (x=857, y=554)
+#py.doubleClick (x=1110, y=36)
+#py.write ('https://www.instagram.com/')
+#py.press ('Enter')
+#time.sleep (5)
+#py.click (x=88, y=548) #click em postar (Atualizar sempre)
+#py.click (x=92, y=608) #click em postar (Atualizar sempre)
+#py.click (x=671, y=506) #upload
+#py.click (x=226, y=411) #seleciona barra de pesquisa
