@@ -15,3 +15,7 @@ Replanejamento do projeto - Mudança de automação em segundo plano para automa
 API não será mais usada nessa nova estratégia.
 Implementação da biblioteca PyAutoGui para automação em primeiro plano.
 Executando primeiros teste com PyAutoGui para planejamento de prototipo.
+
+02/09/25 - Aprovação final - Prototipo de postagem - OK
+Fim dos teste do script prototipo de postagem automatica via PyAutoGui.
+Prototipo aprovado.
